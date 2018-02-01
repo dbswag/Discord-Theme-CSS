@@ -93,7 +93,7 @@ textarea,
 .messages-wrapper,
 #voice-connection,
 .container-RYiLUQ,
-.container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .vertical-3X17r5, .container-RYiLUQ,
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .container-RYiLUQ,
 .theme-dark .headerBar-cxbhPD {
     background: transparent !important;
     box-shadow: none;
@@ -436,19 +436,26 @@ textarea,
     display: none;
 }
 
+/*removed create server button */
 .guilds-wrapper .guild.guilds-add {
-    position: relative;
-    height: 40px !important;
     display: none !important
 }
 
+/* fix for spotify invite */
 .theme-dark .invite-CTGItT {
     background-color: transparent !important;
     border-color: transparent !important;
 }
 
+/* idk */
 .horizontal-2BEEBe>.flex-lFgbSz:first-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
     background-color: transparent !important;
 }
 
-    
+.theme-dark .subtitle-2BzAeG {
+    background-color: #1C152E !important;
+}
+
+.theme-dark .title-WW3neA {
+    background-color: #1C152E !important;
+}
