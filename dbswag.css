@@ -93,6 +93,7 @@ textarea,
 .messages-wrapper,
 #voice-connection,
 .container-RYiLUQ,
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .vertical-3X17r5, .container-RYiLUQ,
 .theme-dark .headerBar-cxbhPD {
     background: transparent !important;
     box-shadow: none;
@@ -434,3 +435,20 @@ textarea,
 .theme-dark .protip-12obwm {
     display: none;
 }
+
+.guilds-wrapper .guild.guilds-add {
+    position: relative;
+    height: 40px !important;
+    display: none !important
+}
+
+.theme-dark .invite-CTGItT {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.horizontal-2BEEBe>.flex-lFgbSz:first-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
+    background-color: transparent !important;
+}
+
+    
