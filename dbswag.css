@@ -1,0 +1,438 @@
+//META{"name":"dbswag Theme","description":"Sick af theme","author":"dbswag","version":"1.0"}*//{}
+
+/*https://cdn.rawgit.com/danbetesta/dbswagDiscordTheme/master/dbswag.css*/
+
+/* stolen shit from other themes lmaoooooooo */
+@import url(https://fonts.googleapis.com/css?family=Karla|Questrial);
+@import url(https://rawgit.com/intrnl/discordAdditions/master/codeblockLangIdentifier/themefile.css);
+@import url(https://rawgit.com/intrnl/discordAdditions/master/hideChannelDescription/themefile.css);
+@import url(https://rawgit.com/intrnl/discordAdditions/master/nativeTitlebar/themefile.css);
+@import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice3.css);
+@import url(https://rawgit.com/Favna/8671ef1c87d0686e7bd50349aa98c16d/raw/0266dfa6d1f3fd2393e60192ae1729bbd7e86eec/colorvars.css);
+@import url(https://rawgit.com/Favna/acb8f36b57826f28fb1d883524ce01eb/raw/783100c8334fe6acf5d1cad9461955e9b64dc29b/MaterialAnimation.css);
+@import url(https://rawgit.com/Favna/1afa84709c0bcac1a1fb6a2195cf30a2/raw/651586990f8d8606e8134549e7d2a319601fe1bf/MaterialSettings.css);
+@import url(https://rawgit.com/Favna/b558c8247d393966f20809be90ae9dcc/raw/f82984336359fb1c73e4fbd5976427d92f048d77/MaterialServerSettings.css);
+@import url(https://rawgit.com/Favna/d783e889398a873ce8245ba15b24b279/raw/2e31dc2ae7eb2842c02088b0e24996e455b04b3c/GradientNewGuild.css);
+@import url(https://rawgit.com/Favna/354cea5e08898adf7ec608c101b055e0/raw/3352d4a6bceff99ffd9d9b603f983eaf91647ecd/MaterialMessagesBar.css);
+@import url(https://rawgit.com/Favna/26fcd76a28ded93122bc698e8a9efdba/raw/af3d34f21db9c528071539e2de9abb07a03d4b8c/MaterialTypingEllipsis.css);
+@import url(https://rawgit.com/Favna/0cb9bb88206718011fdede7b8c9aff00/raw/d594adcf519715ff9e79ba78c8bb9de05d3303f0/MaterialContextMenu.css);
+@import url(https://rawgit.com/Favna/289985d57a78011a98c1526ed2323049/raw/a467d8dabe23985d8ae348d4b400509fb46a6ceb/MaterialTooltips.css);
+@import url(https://rawgit.com/Favna/8921f16778e2e9b59222684960fc65b6/raw/517c2688a05db754cfa1f8f381d84a0b2755ce18/ThemeFix17-1-2018.css);
+div>*:not(code) {
+    font-family: 'Karla' !important;
+    font-family: 'Questrial' !important;
+}
+
+ /* sick af background */
+.app,
+.callout-backdrop,
+.layer {
+    background: url("https://i.imgur.com/q3okkr1.jpg") !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+/* Direct message logo which ur probs wonna change cus ur beta male */
+.guilds-wrapper .guilds .friends-icon {
+    background-color: rgba(206, 38, 38, 0.30) !important;
+    background-image: url("https://yt3.ggpht.com/a-/AK162_4wSZbFRszL8eLSujBq3VN2R5RoTuka2jNHsQ=s900-mo-c-c0xffffffff-rj-k-no") !important;
+    background-size: cover !important;
+}
+
+/* transparent shit */
+
+.guild-header,
+.theme-dark .embedInner-t4ag7g,
+.private-channels .channel:active,
+.guild-channels .channel-text:active,
+.channel-members .member.popout-open,
+.private-channels .channel.selected,
+.guild-channels .channel-text.selected,
+.guild-channels,
+.theme-dark .chat>.content,
+.theme-dark .friends-table,
+.theme-dark .messages-wrapper,
+.private-channels,
+.guilds-wrapper,
+.channel-members,
+.theme-dark .channel-textarea-inner,
+#friends,
+#friends .friends-table .friends-table-header,
+#friends .friends-table,
+.flex-horizontal>.flex-spacer,
+.chat .messages,
+.friends-table .messages .message-group:not(.has-divider),
+.messages-wrapper .messages .message-group:not(.has-divider),
+#voice-connection .btn-group,
+.account .btn-group,
+.account .btn-mute,
+.account .btn-deafen,
+.account .btn-settings,
+.channel-textarea,
+.comment,
+.scroller .guild-channels,
+.channels-wrap,
+.theme-dark .layers,
+.channel-members-wrap,
+.channel-members-wrap .scroller-wrap.fade.dark,
+.search-bar,
+.friends-header,
+.chat .messages-wrapper,
+.chat .messages-wrapper .scroller-wrap,
+.chat form .typing:hover,
+.typing .text,
+.theme-dark .chat .private-channel-call,
+.layers,
+.layer,
+textarea,
+.links,
+.chat,
+.typing,
+.content,
+.theme-dark .wrapper-uAa07y,
+.guild-header header,
+.divider-red span,
+.messages-wrapper,
+#voice-connection,
+.container-RYiLUQ,
+.theme-dark .headerBar-cxbhPD {
+    background: transparent !important;
+    box-shadow: none;
+    border-bottom: 0px solid #fff;
+    border-top: none;
+    opacity: 1;
+}
+
+/* cba to comment all this small shit. basically size and colour changes*/
+.container-2OU7Cz,
+.theme-dark .title-qAcLxz,
+.channels-3g2vYe,
+.vertical-3X17r5,
+.container-RYiLUQ {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    margin-bottom: 0px !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    border: 3px solid rgba(255, 255, 255, 0) !important;
+    background-color: #1D6586 !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border: 3px solid rgba(255, 255, 255, 0) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.channel-textarea-inner textarea,
+.chat .title-wrap .topic,
+.theme-dark .search-results-wrap .search-result .hit {
+    color: rgba(255, 255, 255, 0.8)!important;
+}
+
+.friends-online {
+    display: none !important;
+}
+
+.guilds-wrapper {
+    background: rgba(0, 0, 0, 0.5) !important
+}
+
+.guild-inner {
+    background: rgba(0, 0, 0, 0.1) !important
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+    background: rgb(11, 75, 87) !important;
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    background: rgb(28, 177, 167) !important;
+    height: 25px !important;
+    margin-top: -10px !important;
+}
+
+.channels-wrap {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.theme-dark .chat .title-wrap,
+.chat .title-wrap,
+.titleWrapper-3Vi_wz {
+    background: rgba(0, 0, 0, 0.2) !important;
+    border: none !important;
+}
+
+.chat>.title-wrap>.title {
+    background: none !important;
+}
+
+.content .flex-spacer {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+
+.channel-members {
+    background: rgba(0, 0, 0, 0.4) !important
+}
+
+.channelTextAreaEnabled-c05Zpy.channelTextArea-1HTP3C.channelTextArea-os01xC,
+.theme-dark .chat form {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.theme-dark .layers>div[style]:first-child {
+    opacity: 1 !important;
+    transform: scale(1) translateZ(0px) !important;
+}
+
+
+.container-iksrDt {
+    background: rgba(0, 0, 0, 0.2) !important
+}
+
+
+.theme-dark .inner-3if5cm,
+.channel-text-area-default {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.emoji-picker .sticky-header .category {
+    display: none !important;
+    color: #fff !important;
+}
+
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.markup pre {
+    border-radius: 0 !important;
+    background: transparent !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.markup pre code.hljs {
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 1em !important;
+}
+
+.modal-content .markup code.inline,
+.markup code.inline {
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 0.1em 0.4em !important;
+    border-radius: 0 !important;
+    border-radius: 2px 2px 2px 2px !important;
+    border: 1px solid rgba(255, 255, 255, 0.3)!important;
+}
+
+.emoji-item {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.channel-members .member .status {
+    transition: all 150ms ease !important;
+    will-change: border-color, width, background, height, padding !important;
+}
+
+.channel-members .member:hover .status,
+.channel-members .member.popout-open .status {
+    width: 100% !important;
+    background: transparent !important;
+    border-radius: inherit !important;
+    height: 100% !important;
+    right: -4px !important;
+    bottom: -4px !important;
+    padding: 2px !important;
+    transition: all 150ms ease !important;
+    border-width: 2px !important;
+    margin: 0 !important;
+}
+
+/* useless hover shows circle round avatar */
+.channel-members .member:hover .status.status-online,
+.channel-members .member.popout-open .status.status-online {
+    border-color: #43b581 !important
+}
+/* useless hover shows circle round avatar */
+.channel-members .member:hover .status.status-idle,
+.channel-members .member.popout-open .status.status-idle {
+    border-color: #faa61a !important
+}
+/* useless hover shows circle round avatar */
+.channel-members .member:hover .status.status-dnd,
+.channel-members .member.popout-open .status.status-dnd {
+    border-color: #f04747 !important
+}
+/* useless hover shows circle round avatar */
+.channel-members .member:hover .status.status-offline,
+.channel-members .member.popout-open .status.status-offline {
+    border-color: #636b75 !important
+}
+/* useless hover shows circle round avatar */
+.channel-members .member:hover .status-streaming.status,
+.channel-members .member.popout-open .status-streaming.status {
+    border-color: #593695 !important
+}
+/* useless hover shows circle round avatar */
+.channel-members .member.popout-open .status.status-typing,
+.channel-members .member:hover .status.status-typing {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.channel-members .member.popout-open .status.status-typing .spinner .spinner-inner,
+.channel-members .member:hover .status.status-typing .spinner .spinner-inner {
+    left: 1px !important;
+    top: 1px !important;
+}
+
+/* some talkin shit */
+.avatarSpeaking-3teDH6,
+.avatarDefault-3jtQoc,
+.avatarContainer-303pFz {
+    border-color: transparent !important;
+    box-shadow: none !important;
+    z-index: 10 !important;
+}
+
+/* Green highlight when speaking */
+.avatarSpeaking-3teDH6::before {
+    content: "" !important;
+    position: absolute !important;
+    left: -5px !important;
+    width: 4px !important;
+    height: 20px !important;
+    background: #43b581 !important;
+}
+
+/* Green highlight when speaking */
+.avatarSpeaking-3teDH6::after {
+    content: "" !important;
+    position: absolute !important;
+    height: 20px !important;
+    left: -5px !important;
+    width: 100% !important;
+    background: linear-gradient(to right, #43b581 0%, transparent 35%) !important;
+    opacity: 0.5 !important;
+    z-index: -1 !important;
+}
+
+/* really should do comments whilst im coding it */
+.user-settings-account .ui-form-item:last-of-type .view-body.selectable-prgIYK:last-of-type {
+    filter: blur(5px) !important;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+}
+
+/* dont remember */
+.user-settings-account .ui-form-item:last-of-type .view-body.selectable-prgIYK:last-of-type:hover {
+    filter: none !important;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+}
+
+/* Extra Badges */
+
+.flex-lFgbSz.profileBadges-2B6TBS > div:before {
+    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    background-image: url('https://favna.s-ul.eu/FwGzLmU4.svg');
+    background-repeat: no-repeat;
+}
+
+.flex-lFgbSz.profileBadges-2B6TBS > div {
+    background-image: url('');
+}
+
+/* idk */
+.theme-dark .wrapper-uAa07y {
+	border-color: transparent;
+}
+
+/* Text when clickig on someones name */
+.headerName-2N8Pdz, .headerTagUsernameNoNickname-1gGsAP {
+    color: pink;
+}
+
+/* Text when clicking on someones name */
+.headerTag-3zin_i {
+    color: white;
+}
+/* some random text border */
+
+.container-3lnMWU {
+    border-bottom: 0px;
+}
+/* cant remember */
+.inner-ptMwR- .rtc-connection-status-connected {
+    font-size: 15px;
+}
+/* cant remember */
+.inner-ptMwR- .channel-3YGMy1 {
+    color: white;
+    font-size: 13px;
+}
+
+/* fuck ur new message */
+.unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar {
+    display: none;
+}
+
+/* Transparent voice chat */
+.listDefault-3i7eWQ {
+    background: transparent !important;
+}
+
+/* Bar on the left of a link */
+.theme-dark .embedPill-3sYS1X {
+    background-color: #A552E0;
+}
+/* NIGGA MAKE THE EMOJIS AS BIG AS U WANT */
+.emoji {
+    min-height: 45px;
+    min-width: 45px;
+    vertical-align: -.5em;
+    height: 2rem;
+}
+
+/* Time stamp on messages */
+.theme-dark .message-group h2 .timestamp {
+    font-style: italic;
+}
+
+/* DISCORD BAR */
+.titleBar-3_fDwJ {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+    filter: brightness(.39);
+    background-size: cover !important;
+}
+
+/* Mention autocomplete hover */
+.theme-dark .selectorSelected-2M0IGv {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
+
+/* @ colour changed cus why not */
+.bd-blue .mention {
+    color:#91CFE2;
+}
+
+/* Mentioned colour */
+.theme-dark .message-group .mentioned .message-text {
+    background: rgb(75, 24, 75) !important;
+}
+
+/* legit just did this and cant remember what it was for */
+/* ah i remember fuckin when u click server name and pop up comes up added the colour to it */
+.size-2pbXxj {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
+
+/* first message of the day notification thingy */ 
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: white;
+}
+
+/* Removes pro-tip under message when left clicking on a name */
+.theme-dark .protip-12obwm {
+    display: none;
+}

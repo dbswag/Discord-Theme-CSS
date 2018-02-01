@@ -1,1 +1,1 @@
-# Discord-Theme-CSS
+// First release of the Discord Theme
