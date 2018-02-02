@@ -410,12 +410,12 @@ textarea,
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
 }
 
-/* @ colour changed cus why not */
+/* @ mention colour changed cus why not */
 .bd-blue .mention {
     color:#91CFE2;
 }
 
-/* Mentioned colour */
+/* Mentioned highlight colour*/
 .theme-dark .message-group .mentioned .message-text {
     background: rgb(75, 24, 75) !important;
 }
@@ -426,7 +426,7 @@ textarea,
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
 }
 
-/* first message of the day notification thingy */ 
+/* first message of the day notification thingy because red is overrated */ 
 .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
     color: white;
 }
@@ -436,19 +436,33 @@ textarea,
     display: none;
 }
 
+/*remove add server button */
 .guilds-wrapper .guild.guilds-add {
-    position: relative;
-    height: 40px !important;
     display: none !important
 }
 
+/* spotify invite link transparency */
 .theme-dark .invite-CTGItT {
     background-color: transparent !important;
     border-color: transparent !important;
 }
 
+/* probably spotify fix too idk */
 .horizontal-2BEEBe>.flex-lFgbSz:first-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
     background-color: transparent !important;
 }
 
-    
+/* fixes background on text on listening along section */
+.theme-dark .title-WW3neA {
+    background-color: #1E1730 !important;
+}
+
+/* fixes background on text on listening along section */
+.theme-dark .subtitle-2BzAeG {
+    background-color: #1E1730 !important;
+}
+
+/* Link colour */
+.theme-dark .message-group a {
+    color: #60C2D8 !important;
+}
