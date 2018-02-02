@@ -436,35 +436,22 @@ textarea,
     display: none;
 }
 
-<<<<<<< HEAD
-/*remove add server button */
-=======
 /*removed create server button */
->>>>>>> 6fd9fff35ff1561215daec8d1a8b4d1d2642e299
 .guilds-wrapper .guild.guilds-add {
     display: none !important
 }
 
-<<<<<<< HEAD
 /* spotify invite link transparency */
-=======
-/* fix for spotify invite */
->>>>>>> 6fd9fff35ff1561215daec8d1a8b4d1d2642e299
 .theme-dark .invite-CTGItT {
     background-color: transparent !important;
     border-color: transparent !important;
 }
 
-<<<<<<< HEAD
 /* probably spotify fix too idk */
-=======
-/* idk */
->>>>>>> 6fd9fff35ff1561215daec8d1a8b4d1d2642e299
 .horizontal-2BEEBe>.flex-lFgbSz:first-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
     background-color: transparent !important;
 }
 
-<<<<<<< HEAD
 /* fixes background on text on listening along section */
 .theme-dark .title-WW3neA {
     background-color: #1E1730 !important;
@@ -478,12 +465,4 @@ textarea,
 /* Link colour */
 .theme-dark .message-group a {
     color: #60C2D8 !important;
-=======
-.theme-dark .subtitle-2BzAeG {
-    background-color: #1C152E !important;
-}
-
-.theme-dark .title-WW3neA {
-    background-color: #1C152E !important;
->>>>>>> 6fd9fff35ff1561215daec8d1a8b4d1d2642e299
 }
