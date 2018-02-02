@@ -529,3 +529,111 @@ textarea,
 .topSectionNormal-2LlRG1 {
     background: url("https://i.imgur.com/q3okkr1.jpg") !important;
 }
+
+/* profile background when playing a game */
+.topSectionPlaying-3jAH9b {
+    background: url("https://i.imgur.com/q3okkr1.jpg") !important;
+}
+
+.bd-blue .tab-bar.TOP .tab-bar-item.selected {
+    color: lightblue !important;
+}
+
+button:disabled, button:disabled:hover,
+input:disabled, input:disabled:hover,
+textarea:disabled, textarea:disabled:hover {
+    pointer-events: all!important;
+    cursor: not-allowed!important;
+}
+.wordmark-2L03Wr::before {
+    content: 'dbswags discord theme';
+    background-color: var(--titlebar-color);
+    z-index: 999999999999999999999;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    position: fixed;
+    top: 9.45px;
+    left: 16px;
+    width: 200px;
+}
+
+.wordmark-2L03Wr {
+    opacity: 1;
+    width: 100%;
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+    top: -4px;
+    background-size: cover !important;
+}
+
+
+/* Emoji picker shit */
+.search-bar.search-bar-light {
+    background-color: #29292A !important;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(199,209,216,.3);
+    border: 1px solid transparent;
+    border-radius: 0!important;
+}
+.emojiPicker-3g68GS .dimmer-jySV_v {
+    -webkit-transition: background-color .15s ease-in-out;
+    background-color: transparent;
+    border-radius: 0;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    transition: background-color .15s ease-in-out;
+    width: 100%;
+    z-index: 1;
+}
+.emojiPicker-3g68GS {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+    background-color: #29292A;
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.emojiPicker-3g68GS .category-3rCtoh {
+    background-color: #29292A;
+}
+
+
+/* windows button changes */
+.winButton-U7zAqI {
+    width: 45px;
+    height: 29px;
+    margin-top: -4px;
+    top: 0;
+    opacity: 1;
+    background-color: transparent;
+    background-repeat: no-repeat !important;
+    background-position: center!important;
+    cursor: default;
+    background-size: 10px!important;
+}
+
+.winButton-U7zAqI:hover {
+    background-color: #29292A!important;
+}
+
+
+/* Server settings fixes */
+.horizontal-2BEEBe>.flex-lFgbSz:last-child {
+    background-color: transparent !important;
+}
+
+.theme-dark .select-3JqNgs .Select-option.is-selected {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
+
