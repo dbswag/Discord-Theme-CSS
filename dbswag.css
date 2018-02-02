@@ -242,10 +242,10 @@ textarea,
     background: transparent !important;
     border-radius: inherit !important;
     height: 100% !important;
-    right: -4px !important;
-    bottom: -4px !important;
+    right: -3px !important;
+    bottom: -3px !important;
     padding: 2px !important;
-    transition: all 150ms ease !important;
+    transition: all 200ms ease !important;
     border-width: 2px !important;
     margin: 0 !important;
 }
@@ -280,7 +280,7 @@ textarea,
 .channel-members .member:hover .status.status-typing {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
-
+/* 3 dots on when someones typing */
 .channel-members .member.popout-open .status.status-typing .spinner .spinner-inner,
 .channel-members .member:hover .status.status-typing .spinner .spinner-inner {
     left: 1px !important;
@@ -361,11 +361,11 @@ textarea,
 .container-3lnMWU {
     border-bottom: 0px;
 }
-/* cant remember */
+/* voice connected */
 .inner-ptMwR- .rtc-connection-status-connected {
     font-size: 15px;
 }
-/* cant remember */
+/* text under voice connected */
 .inner-ptMwR- .channel-3YGMy1 {
     color: white;
     font-size: 13px;
@@ -465,4 +465,67 @@ textarea,
 /* Link colour */
 .theme-dark .message-group a {
     color: #60C2D8 !important;
+}
+
+/* Voice connected background */
+.container-3lnMWU {
+    background-color: #160E28 !important;
+}
+
+/* # number under username */
+.accountDetails-15i-_e .discriminator {
+    font-size: 13px !important;
+    color: white !important;
+    opacity: .8;
+}
+
+/* Channel Highlighted */
+.contentSelectedText-3j5CXt {
+    background-color: #3A2F53 !important;
+}
+
+/* Channel Hovered */
+.contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active {
+    background-color: #433368 !important;
+}
+
+/* Voice channel member limit */
+.wrapper-2ldvyE {
+    background-color: #2A1938 !important;
+}
+
+/* chat avatar size */
+.chat .avatar-large {
+    height: 45px !important;
+    width: 45px !important;
+}
+
+/* background: url("https://i.imgur.com/q3okkr1.jpg") !important; */
+
+/* Server invite link transparency fix */
+.guildInfo-mu0TQL {
+    background-color: transparent !important;
+}
+
+/* right side member list hover colour */
+.theme-dark .channel-members .member:hover {
+    background: url("https://i.imgur.com/q3okkr1.jpg") !important; 
+}
+
+/* right side member list playing / listening text */
+.channel-members .member .member-activity {
+    color: white !important;
+    opacity: .7 !important;
+    font-size: 13;
+}
+
+/* nickname on profile click */
+.headerName-2N8Pdz, .headerTagUsernameNoNickname-1gGsAP {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+/* profile background */
+.topSectionNormal-2LlRG1 {
+    background: url("https://i.imgur.com/q3okkr1.jpg") !important;
 }
