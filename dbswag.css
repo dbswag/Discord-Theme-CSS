@@ -637,3 +637,10 @@ textarea:disabled, textarea:disabled:hover {
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
 }
 
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
+
+.private-channels .channel:hover a {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
