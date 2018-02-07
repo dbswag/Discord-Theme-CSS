@@ -393,10 +393,7 @@ textarea,
     height: 2rem;
 }
 
-/* Time stamp on messages */
-.theme-dark .message-group h2 .timestamp {
-    font-style: italic;
-}
+
 
 /* DISCORD BAR */
 .titleBar-3_fDwJ {
@@ -643,4 +640,68 @@ textarea:disabled, textarea:disabled:hover {
 
 .private-channels .channel:hover a {
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
+
+
+/* Name tags */
+
+/* Aqsa */
+.member .avatar-small[style*="272059526147080195"] ~ .member-inner .member-username-inner:after,
+.message-group .avatar-large[style*="272059526147080195"] ~ .comment .timestamp:before {
+    background: rgba(255,0,0,1);
+    border-radius: 3px;
+    color: white;
+    content: "Brownie";
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 3px;
+    position: relative;
+    bottom: 1px;
+}
+.member .avatar-small ~ .member-inner .member-username-inner:after {
+    margin: 0 0 0 5px;
+}
+.message-group .avatar-large ~ .comment .timestamp:before {
+    margin: 0 5px 0 0;
+}
+
+/* Dan */
+.member .avatar-small[style*="202505371904901120"] ~ .member-inner .member-username-inner:after,
+.message-group .avatar-large[style*="202505371904901120"] ~ .comment .timestamp:before {
+    background: rgba(255,0,0,1);
+    border-radius: 3px;
+    color: white;
+    content: "Boss";
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 3px;
+    position: relative;
+    bottom: 1px;
+}
+.member .avatar-small ~ .member-inner .member-username-inner:after {
+    margin: 0 0 0 5px;
+}
+.message-group .avatar-large ~ .comment .timestamp:before {
+    margin: 0 5px 0 0;
+}
+
+/* Kerri */
+.member .avatar-small[style*="203999589248794635"] ~ .member-inner .member-username-inner:after,
+.message-group .avatar-large[style*="203999589248794635"] ~ .comment .timestamp:before {
+    background: rgba(255,0,0,1);
+    border-radius: 3px;
+    color: white;
+    content: "Tig Ol Bitties";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: none;
+    padding: 0 3px;
+    position: relative;
+    bottom: 1px;
+}
+.member .avatar-small ~ .member-inner .member-username-inner:after {
+    margin: 0 0 0 5px;
+}
+.message-group .avatar-large ~ .comment .timestamp:before {
+    margin: 0 5px 0 0;
 }
