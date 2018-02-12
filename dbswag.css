@@ -706,11 +706,18 @@ textarea:disabled, textarea:disabled:hover {
     margin: 0 5px 0 0;
 }
 
-.channelName-1G03vu[style*="202505619033292800"]::after,
- .chat>.titleWrapper-3Vi_wz .topic-1KFf6J::before {
+/* General text on my server */
+.chat>.titleWrapper-3Vi_wz .topic-1KFf6J::before {
     content: "Daniel is my daddy" !important;
     color: white;
     height: 22px !important;
     font-size: 100% !important;
     font-family: 'Questrial' !important;
+}
+
+/* Make ego bigger (Crown) */
+.channel-members .member .member-owner-icon {
+    height: 17px !important;
+    width: 17px !important;
+    top: -1px !important;
 }
