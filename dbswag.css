@@ -606,7 +606,7 @@ textarea:disabled, textarea:disabled:hover {
 }
 
 
-/* windows button changes */
+/* Windows button changes */
 .winButton-U7zAqI {
     width: 45px;
     height: 29px;
@@ -668,7 +668,7 @@ textarea:disabled, textarea:disabled:hover {
 /* Dan */
 .member .avatar-small[style*="202505371904901120"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="202505371904901120"] ~ .comment .timestamp:before {
-    background: rgba(255,0,0,1);
+    background: rgb(255, 0, 0);
     border-radius: 3px;
     color: white;
     content: "Boss";
@@ -704,4 +704,13 @@ textarea:disabled, textarea:disabled:hover {
 }
 .message-group .avatar-large ~ .comment .timestamp:before {
     margin: 0 5px 0 0;
+}
+
+.channelName-1G03vu[style*="202505619033292800"]::after,
+ .chat>.titleWrapper-3Vi_wz .topic-1KFf6J::before {
+    content: "Daniel is my daddy" !important;
+    color: white;
+    height: 22px !important;
+    font-size: 100% !important;
+    font-family: 'Questrial' !important;
 }
