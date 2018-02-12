@@ -638,7 +638,8 @@ textarea:disabled, textarea:disabled:hover {
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
 }
 
-.private-channels .channel:hover a {
+.private-channels .channel:hover a,
+.modal-3HOjGZ {
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
 }
 
@@ -706,12 +707,13 @@ textarea:disabled, textarea:disabled:hover {
     margin: 0 5px 0 0;
 }
 
-/* General text on my server */
-.chat>.titleWrapper-3Vi_wz .topic-1KFf6J::before {
-    content: "Daniel is my daddy" !important;
+/* Channel name text */
+.channelName-1G03vu::after{
+    content: " - Daniel is my daddy" !important;
     color: white;
     height: 22px !important;
-    font-size: 100% !important;
+    font-size: 75% !important;
+    font-weight: 200 !important;
     font-family: 'Questrial' !important;
 }
 
@@ -721,3 +723,32 @@ textarea:disabled, textarea:disabled:hover {
     width: 17px !important;
     top: -1px !important;
 }
+
+/* Background fixes */
+.bd-blue .need-help-modal .header, 
+.need-help-modal.deprecated .footer,
+.headerNormal-1cioxU,
+.headerPlaying-2eYqm9,
+.headerSpotify-1fSJPO,
+.themed-popout .header,
+.changeDetails-zbf-61,
+.messages-popout {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
+
+/* Avatar hover */
+.avatarHintInner-1JYcVr {
+    display: none !important;
+}
+
+.messages-popout-wrap .messages-popout .message-group {
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+
+/* random button */
+.messages-popout-wrap .has-more button {
+    background-color: white !important;
+}
+
+
