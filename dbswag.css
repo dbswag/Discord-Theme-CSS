@@ -751,11 +751,9 @@ textarea:disabled, textarea:disabled:hover {
     background-color: white !important;
 }
 
-<<<<<<< HEAD
 .attachment-1Vom9D {
 	background-color: transparent !important;
 	border-color: transparent !important;
-=======
 /* Attachment background */
 .attachment-1Vom9D {
     background-color: transparent !important;
@@ -765,5 +763,4 @@ textarea:disabled, textarea:disabled:hover {
 /* Date in chat background */
 .messages-wrapper .messages .divider span {
     background-color: #1D6586 !important;
->>>>>>> 4e658e195181a9ce6ad816fbd06b21bb5e78dcfa
 }
