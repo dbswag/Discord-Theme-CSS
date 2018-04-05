@@ -765,3 +765,9 @@ textarea:disabled, textarea:disabled:hover {
     background-color: #1D6586 !important;
 }
 
+
+/* Fix for members section */
+.scroller-fzNley.members-1bid1J {
+    background: transparent;
+background-color: rgba(0, 0, 0, 0.4) !important;
+}
