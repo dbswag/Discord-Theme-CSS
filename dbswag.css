@@ -91,6 +91,7 @@ textarea,
 .guild-header header,
 .divider-red span,
 .messages-wrapper,
+#memberCount,
 #voice-connection,
 .container-RYiLUQ,
 .container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .container-RYiLUQ,
@@ -771,4 +772,13 @@ textarea:disabled, textarea:disabled:hover {
 .scroller-fzNley.members-1bid1J {
     background: transparent;
 background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.membersWrap-3wRngy .members-1bid1J {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.theme-dark .messages-wrapper .messages .divider span {
+    background-color: #1D6586 !important;
 }
