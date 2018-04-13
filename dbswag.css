@@ -719,9 +719,9 @@ textarea:disabled, textarea:disabled:hover {
 }
 
 /* Make ego bigger (Crown) */
-.channel-members .member .member-owner-icon {
-    height: 17px !important;
-    width: 17px !important;
+.channel-members .member .member-owner-icon,.ownerIcon-2RBgEv {
+    height: 18px !important;
+    width: 18px !important;
     top: -1px !important;
 }
 
@@ -736,6 +736,10 @@ textarea:disabled, textarea:disabled:hover {
 .changeDetails-zbf-61,
 .searchFilter-1fJ0cd,
 .searchAnswer-yD90ey,
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq,
+.theme-dark .headerNormal-3Vn9nT,
+.private-channels .channel.selected a,
+.headerPlaying-2Q7mBy,
 .member-2FrNV0:hover .content-3JzEqq,
 .messages-popout {
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
@@ -781,4 +785,8 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 
 .theme-dark .messages-wrapper .messages .divider span {
     background-color: #1D6586 !important;
+}
+
+.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    padding: 4px !important;
 }
