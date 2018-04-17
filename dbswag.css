@@ -693,7 +693,82 @@ textarea:disabled, textarea:disabled:hover {
     background: rgba(255,0,0,1);
     border-radius: 3px;
     color: white;
-    content: "Bitch";
+    content: "GGX Gang Member";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: none;
+    padding: 0 3px;
+    position: relative;
+    bottom: 1px;
+}
+
+/* M4RV */
+.member .avatar-small[style*="207447295585812480"] ~ .member-inner .member-username-inner:after,
+.message-group .avatar-large[style*="207447295585812480"] ~ .comment .timestamp:before {
+    background: rgba(255,0,0,1);
+    border-radius: 3px;
+    color: white;
+    content: "The Bois";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: none;
+    padding: 0 3px;
+    position: relative;
+    bottom: 1px;
+}
+
+/* Jordan */
+.member .avatar-small[style*="198848305504059392"] ~ .member-inner .member-username-inner:after,
+.message-group .avatar-large[style*="198848305504059392"] ~ .comment .timestamp:before {
+    background: rgba(255,0,0,1);
+    border-radius: 3px;
+    color: white;
+    content: "The Bois";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: none;
+    padding: 0 3px;
+    position: relative;
+    bottom: 1px;
+}
+
+/* Ay Ay */
+.member .avatar-small[style*="137272707711631360"] ~ .member-inner .member-username-inner:after,
+.message-group .avatar-large[style*="137272707711631360"] ~ .comment .timestamp:before {
+    background: rgba(255,0,0,1);
+    border-radius: 3px;
+    color: white;
+    content: "The Bois";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: none;
+    padding: 0 3px;
+    position: relative;
+    bottom: 1px;
+}
+
+/* Not Luke */
+.member .avatar-small[style*="186539827930464256"] ~ .member-inner .member-username-inner:after,
+.message-group .avatar-large[style*="186539827930464256"] ~ .comment .timestamp:before {
+    background: rgba(255,0,0,1);
+    border-radius: 3px;
+    color: white;
+    content: "The Bois";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: none;
+    padding: 0 3px;
+    position: relative;
+    bottom: 1px;
+}
+
+/* LandMammoth */
+.member .avatar-small[style*="198812128193413121"] ~ .member-inner .member-username-inner:after,
+.message-group .avatar-large[style*="198812128193413121"] ~ .comment .timestamp:before {
+    background: rgba(255,0,0,1);
+    border-radius: 3px;
+    color: white;
+    content: "The Bois";
     font-size: 12px;
     font-weight: 500;
     font-style: none;
