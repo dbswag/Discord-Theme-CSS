@@ -779,7 +779,7 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .membersWrap-3wRngy .members-1bid1J {
-    padding-top: 2vh;
+    padding-top: 3vh;
     padding-bottom: 2vh;
 }
 
@@ -793,4 +793,8 @@ background-color: rgba(0, 0, 0, 0.4) !important;
     padding: 2px !important;
     padding-right: 6px !important;
     padding-left: 6px !important;
+}
+
+.membersWrap-3wRngy .members-1bid1J {
+    margin-top: 0vh !important;
 }
