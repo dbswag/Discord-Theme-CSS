@@ -930,7 +930,10 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 .theme-dark .title-3qD0b-,
 .theme-dark .typing-2GQL18,
 .search-bar.search-bar-light,
+.theme-dark .embedInner-1-fpTo,
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.theme-dark .inner-zqa7da,
+.container-1UB9sr,
 .theme-dark .members-1998pB{
   background: transparent !important;
 }
@@ -938,5 +941,26 @@ background-color: rgba(0, 0, 0, 0.4) !important;
     background-color: rgba(54, 57, 63, 0.3)!important;
 }
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {
-    background: rgba(0, 0, 0, 0.2) !important;
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.theme-dark .embedInner-1-fpTo {
+    border-color: transparent !important;
+}
+
+.theme-dark .embedPill-1Zntps {
+    background-color: slateblue !important;
+}
+
+.contentSelectedText-3wUhMi,
+.contentHoveredText-2D9B-x,
+.theme-dark .member-3W1lQa:hover .content-OzHfo4,
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
+.theme-dark .member-3W1lQa:hover .content-OzHfo4
+ {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
+
+.container-1UB9sr {
+    border-bottom: 0px !important;
 }
