@@ -543,6 +543,8 @@ textarea:disabled, textarea:disabled:hover {
     pointer-events: all!important;
     cursor: not-allowed!important;
 }
+
+/* Windows bar */
 .wordmark-2iDDfm::before {
     content: 'theme by dbswag';
     background-color: var(--titlebar-color);
@@ -568,14 +570,20 @@ textarea:disabled, textarea:disabled:hover {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
 */
+
+/* Windows bar */
 .titleBar-AC4pGV {
     opacity: 1;
     width: 100%;
     background: url("https://i.imgur.com/UJdf7Qx.png") !important;
-    background-color: rgba(0, 0, 0, .2) !important;
     top: -4px;
     background-size: cover !important;
-    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+/* Windows bar grey margin fix */
+.typeWindows-1za-n7 {
+    margin-top: 0px !important;
+    padding-top: 4px !important;
 }
 
 /* Emoji picker shit */
@@ -828,6 +836,9 @@ textarea:disabled, textarea:disabled:hover {
 .private-channels .channel.selected a,
 .headerPlaying-2Q7mBy,
 .member-2FrNV0:hover .content-3JzEqq,
+.headerPlaying-j0WQBV,
+.headerTop-3C2Zn0,
+.activity-11LB_k,
 .messages-popout {
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
 }
@@ -886,6 +897,7 @@ background-color: rgba(0, 0, 0, 0.4) !important;
     margin-top: 0vh !important;
 }
 
+/* 27.04 transparency fix */
 #voice-connection, 
 #friends, 
 .friends-header, 
@@ -945,6 +957,7 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 .theme-dark .embedInner-1-fpTo,
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
 .theme-dark .inner-zqa7da,
+.theme-dark .headerBar-UHpsPw,
 .container-1UB9sr,
 .theme-dark .members-1998pB{
   background: transparent !important;
@@ -976,3 +989,4 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 .container-1UB9sr {
     border-bottom: 0px !important;
 }
+
