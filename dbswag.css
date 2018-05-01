@@ -1,21 +1,8 @@
 //META{"name":"dbswag Theme","description":"Sick af theme","author":"dbswag","version":"1.0"}*//{}
 
-/* stolen shit from other themes lmaoooooooo */
+/* font */
 @import url(https://fonts.googleapis.com/css?family=Karla|Questrial);
-@import url(https://rawgit.com/intrnl/discordAdditions/master/codeblockLangIdentifier/themefile.css);
-@import url(https://rawgit.com/intrnl/discordAdditions/master/hideChannelDescription/themefile.css);
-@import url(https://rawgit.com/intrnl/discordAdditions/master/nativeTitlebar/themefile.css);
-@import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice3.css);
-@import url(https://rawgit.com/Favna/8671ef1c87d0686e7bd50349aa98c16d/raw/0266dfa6d1f3fd2393e60192ae1729bbd7e86eec/colorvars.css);
-@import url(https://rawgit.com/Favna/acb8f36b57826f28fb1d883524ce01eb/raw/783100c8334fe6acf5d1cad9461955e9b64dc29b/MaterialAnimation.css);
-@import url(https://rawgit.com/Favna/1afa84709c0bcac1a1fb6a2195cf30a2/raw/651586990f8d8606e8134549e7d2a319601fe1bf/MaterialSettings.css);
-@import url(https://rawgit.com/Favna/b558c8247d393966f20809be90ae9dcc/raw/f82984336359fb1c73e4fbd5976427d92f048d77/MaterialServerSettings.css);
-@import url(https://rawgit.com/Favna/d783e889398a873ce8245ba15b24b279/raw/2e31dc2ae7eb2842c02088b0e24996e455b04b3c/GradientNewGuild.css);
-@import url(https://rawgit.com/Favna/354cea5e08898adf7ec608c101b055e0/raw/3352d4a6bceff99ffd9d9b603f983eaf91647ecd/MaterialMessagesBar.css);
-@import url(https://rawgit.com/Favna/26fcd76a28ded93122bc698e8a9efdba/raw/af3d34f21db9c528071539e2de9abb07a03d4b8c/MaterialTypingEllipsis.css);
-@import url(https://rawgit.com/Favna/0cb9bb88206718011fdede7b8c9aff00/raw/d594adcf519715ff9e79ba78c8bb9de05d3303f0/MaterialContextMenu.css);
-@import url(https://rawgit.com/Favna/289985d57a78011a98c1526ed2323049/raw/a467d8dabe23985d8ae348d4b400509fb46a6ceb/MaterialTooltips.css);
-@import url(https://rawgit.com/Favna/8921f16778e2e9b59222684960fc65b6/raw/517c2688a05db754cfa1f8f381d84a0b2755ce18/ThemeFix17-1-2018.css);
+
 div>*:not(code) {
     font-family: 'Karla' !important;
     font-family: 'Questrial' !important;
@@ -524,12 +511,13 @@ textarea,
 }
 
 /* profile background */
-.topSectionNormal-2LlRG1 {
+.topSectionPlaying-1J5E4n {
     background: url("https://i.imgur.com/q3okkr1.jpg") !important;
 }
 
 /* profile background when playing a game */
-.topSectionPlaying-3jAH9b {
+.theme-dark .topSectionNormal-2-vo2m,
+.topSectionSpotify-1lI0-P {
     background: url("https://i.imgur.com/q3okkr1.jpg") !important;
 }
 
@@ -999,13 +987,7 @@ background-color: rgba(0, 0, 0, 0.4) !important;
     background-color: rgb(41, 134, 177) !important;
 }
 
-/* Block popup */
-.lookFilled-1Gx00P .contents-18-Yxp::before{
-    content: "  this retard" !important;
-    float: right !important;
-    color: #fff;
-    margin-left: 2px;
-}
+
 /* Replace Text CSS
 .element {
     text-indent: -9999px;
@@ -1021,15 +1003,8 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 
   */
 
-  .theme-dark .defaultColor-1_ajX0 {
-    text-indent: -9999px;
-    line-height: 0; /* Collapse the original line */
+  /* Invite code */
+  .theme-dark .wrapper-35wsBm {
+      background: transparent !important;
+      border: transparent;
   }
-
-  .theme-dark .defaultColor-1_ajX0::after {
-    content: "Block this retard?";
-    text-indent: 0;
-    display: block;
-    line-height: initial; /* New content takes up original line height */
-  }
-  
