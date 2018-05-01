@@ -838,6 +838,7 @@ textarea:disabled, textarea:disabled:hover {
 .member-2FrNV0:hover .content-3JzEqq,
 .headerPlaying-j0WQBV,
 .headerTop-3C2Zn0,
+.theme-dark .modal-3HD5ck,
 .activity-11LB_k,
 .messages-popout {
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
@@ -990,3 +991,45 @@ background-color: rgba(0, 0, 0, 0.4) !important;
     border-bottom: 0px !important;
 }
 
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: #1D6586 !important;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: rgb(41, 134, 177) !important;
+}
+
+/* Block popup */
+.lookFilled-1Gx00P .contents-18-Yxp::before{
+    content: "  this retard" !important;
+    float: right !important;
+    color: #fff;
+    margin-left: 2px;
+}
+/* Replace Text CSS
+.element {
+    text-indent: -9999px;
+    line-height: 0; /* Collapse the original line */ /*
+  }
+  
+  .element::after {
+    content: "New text";
+    text-indent: 0;
+    display: block;
+    line-height: initial; /* New content takes up original line height */ /*
+  }
+
+  */
+
+  .theme-dark .defaultColor-1_ajX0 {
+    text-indent: -9999px;
+    line-height: 0; /* Collapse the original line */
+  }
+
+  .theme-dark .defaultColor-1_ajX0::after {
+    content: "Block this retard?";
+    text-indent: 0;
+    display: block;
+    line-height: initial; /* New content takes up original line height */
+  }
+  
