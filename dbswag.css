@@ -943,10 +943,16 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 .theme-dark .title-3qD0b-,
 .theme-dark .typing-2GQL18,
 .search-bar.search-bar-light,
+.videoBackground-3AY_fu,
+.videoInner-3OR9J2,
 .theme-dark .embedInner-1-fpTo,
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
 .theme-dark .inner-zqa7da,
 .theme-dark .headerBar-UHpsPw,
+.videoBackground-3AY_fu,
+.videoTop-eOkSPq,
+.video-1FfuMD,
+.videoWrapper-2wbLD-,
 .container-1UB9sr,
 .theme-dark .members-1998pB{
   background: transparent !important;
@@ -1008,3 +1014,4 @@ background-color: rgba(0, 0, 0, 0.4) !important;
       background: transparent !important;
       border: transparent;
   }
+
