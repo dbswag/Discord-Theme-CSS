@@ -10,6 +10,8 @@
     --bdblue: "#1D6586";
 }
 
+/* use - color: var(--VARNAME); */
+
 div>*:not(code) {
     font-family: 'Karla' !important;
     font-family: 'Questrial' !important;
@@ -620,7 +622,7 @@ textarea:disabled, textarea:disabled:hover {
 }
 
 
-/* Windows button changes */
+/* Windows button */
 .winButton-iRh8-Z {
     width: 45px;
     height: 29px;
@@ -1043,3 +1045,24 @@ background-color: rgba(0, 0, 0, 0.4) !important;
     color: rgb(76, 157, 175) !important;
     margin-right: 200px !important;
   }
+
+  .replyer,
+  .wrapper-2NJDcI {
+      background-color: #1D6586 !important;
+      color: rgb(255, 255, 255) !important;
+  }
+
+  .citar-btn,
+  .wrapper-2NJDcI {
+      background-color: #1D6586 !important;
+  }
+
+  .viewBody-2Qz-jg.selectable-x8iAUj {
+    filter: blur(5px) !important;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+  }
+
+  .viewBody-2Qz-jg.selectable-x8iAUj:hover {
+    filter: none !important;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+}
