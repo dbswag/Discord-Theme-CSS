@@ -590,7 +590,7 @@ textarea:disabled, textarea:disabled:hover {
     border: 1px solid transparent;
     border-radius: 0!important;
 }
-.emojiPicker-3g68GS .dimmer-jySV_v {
+.emojiPicker-3m1S-j .dimmer-3iH-5D {
     -webkit-transition: background-color .15s ease-in-out;
     background-color: transparent;
     border-radius: 0;
@@ -601,7 +601,7 @@ textarea:disabled, textarea:disabled:hover {
     width: 100%;
     z-index: 1;
 }
-.emojiPicker-3g68GS {
+.emojiPicker-3m1S-j {
     -ms-flex-direction: column;
     -webkit-box-direction: normal;
     -webkit-box-orient: vertical;
@@ -617,7 +617,7 @@ textarea:disabled, textarea:disabled:hover {
     overflow: hidden;
 }
 
-.emojiPicker-3g68GS .category-3rCtoh {
+.emojiPicker-3m1S-j .category-3rCtoh {
     background-color: #29292A;
 }
 
@@ -625,7 +625,7 @@ textarea:disabled, textarea:disabled:hover {
 /* Windows button */
 .winButton-iRh8-Z {
     width: 45px;
-    height: 29px;
+    height: 23px;
     margin-top: -4px;
     top: 0;
     opacity: 1;
@@ -638,6 +638,7 @@ textarea:disabled, textarea:disabled:hover {
 
 .winButton-iRh8-Z:hover {
     background-color: #1D6586 !important;
+    transition: background-color .15s ease-in-out;
 }
 
 
@@ -665,13 +666,13 @@ textarea:disabled, textarea:disabled:hover {
 /* Aqsa */
 .member .avatar-small[style*="272059526147080195"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="272059526147080195"] ~ .comment .timestamp:before {
-    background: rgba(255,0,0,1);
+    background: #1D6586;
     border-radius: 3px;
     color: white;
-    content: "snakey brown sket kys";
+    content: "bff xxx";
     font-size: 12px;
     font-weight: 500;
-    padding: 0 3px;
+    padding: 2px 5px;
     position: relative;
     bottom: 1px;
 }
@@ -685,13 +686,13 @@ textarea:disabled, textarea:disabled:hover {
 /* Dan */
 .member .avatar-small[style*="202505371904901120"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="202505371904901120"] ~ .comment .timestamp:before {
-    background: rgb(255, 0, 0);
+    background: #1D6586;
     border-radius: 3px;
     color: white;
     content: "Boss";
     font-size: 12px;
     font-weight: 500;
-    padding: 0 3px;
+    padding: 2px 5px;
     position: relative;
     bottom: 1px;
 }
@@ -705,14 +706,14 @@ textarea:disabled, textarea:disabled:hover {
 /* Kerri */
 .member .avatar-small[style*="203999589248794635"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="203999589248794635"] ~ .comment .timestamp:before {
-    background: rgba(255,0,0,1);
+    background: #1D6586;
     border-radius: 3px;
     color: white;
     content: "GGX Gang Member";
     font-size: 12px;
     font-weight: 500;
     font-style: none;
-    padding: 0 3px;
+    padding: 2px 5px;
     position: relative;
     bottom: 1px;
 }
@@ -720,14 +721,14 @@ textarea:disabled, textarea:disabled:hover {
 /* M4RV */
 .member .avatar-small[style*="207447295585812480"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="207447295585812480"] ~ .comment .timestamp:before {
-    background: rgba(255,0,0,1);
+    background: #1D6586;
     border-radius: 3px;
     color: white;
     content: "The Bois";
     font-size: 12px;
     font-weight: 500;
     font-style: none;
-    padding: 0 3px;
+    padding: 2px 5px;
     position: relative;
     bottom: 1px;
 }
@@ -735,14 +736,14 @@ textarea:disabled, textarea:disabled:hover {
 /* Jordan */
 .member .avatar-small[style*="198848305504059392"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="198848305504059392"] ~ .comment .timestamp:before {
-    background: rgba(255,0,0,1);
+    background: #1D6586;
     border-radius: 3px;
     color: white;
     content: "The Bois";
     font-size: 12px;
     font-weight: 500;
     font-style: none;
-    padding: 0 3px;
+    padding: 2px 5px;
     position: relative;
     bottom: 1px;
 }
@@ -750,14 +751,14 @@ textarea:disabled, textarea:disabled:hover {
 /* Ay Ay */
 .member .avatar-small[style*="137272707711631360"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="137272707711631360"] ~ .comment .timestamp:before {
-    background: rgba(255,0,0,1);
+    background: #1D6586;
     border-radius: 3px;
     color: white;
     content: "The Bois";
     font-size: 12px;
     font-weight: 500;
     font-style: none;
-    padding: 0 3px;
+    padding: 2px 5px;
     position: relative;
     bottom: 1px;
 }
@@ -765,14 +766,14 @@ textarea:disabled, textarea:disabled:hover {
 /* Not Luke */
 .member .avatar-small[style*="186539827930464256"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="186539827930464256"] ~ .comment .timestamp:before {
-    background: rgba(255,0,0,1);
+    background: #1D6586;
     border-radius: 3px;
     color: white;
     content: "Snakey jealous cunt kys";
     font-size: 12px;
     font-weight: 500;
     font-style: none;
-    padding: 0 3px;
+    padding: 2px 5px;
     position: relative;
     bottom: 1px;
 }
@@ -780,14 +781,14 @@ textarea:disabled, textarea:disabled:hover {
 /* LandMammoth */
 .member .avatar-small[style*="198812128193413121"] ~ .member-inner .member-username-inner:after,
 .message-group .avatar-large[style*="198812128193413121"] ~ .comment .timestamp:before {
-    background: rgba(255,0,0,1);
+    background: #1D6586;
     border-radius: 3px;
     color: white;
     content: "The Bois";
     font-size: 12px;
     font-weight: 500;
     font-style: none;
-    padding: 0 3px;
+    padding: 2px 5px;
     position: relative;
     bottom: 1px;
 }
@@ -1065,4 +1066,10 @@ background-color: rgba(0, 0, 0, 0.4) !important;
   .viewBody-2Qz-jg.selectable-x8iAUj:hover {
     filter: none !important;
     transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+}
+
+.bd-blue .appMount-3VJmYg.bda-dark .app-19_DXt.platform-win .app.flex-vertical.theme-dark .layers-3iHuyZ.flex-vertical.flex-spacer .layer-3QrUeG .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-2lgZY8.spacer-29U_x8 .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8 .chat.flex-vertical.flex-spacer .content.flex-spacer.flex-horizontal .flex-spacer.flex-vertical .messages-wrapper .scroller-wrap .messages.scroller .message-group.hide-overflow .comment .message.first .body .old-h2 .username-wrapper .kawaii-tag.kawaii-tag-bright,
+.bd-blue .appMount-3VJmYg.bda-dark .theme-dark.popouts-3dRSmE .noArrow-3BYQ0Z.noShadow-321ZPm.popout-3sVMXz.popoutLeft-30WmrD.popout-left .userPopout-3XzG_A .headerPlaying-j0WQBV.header-2BwW8b.size16-14cGz5 .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0 .headerText-2sdzFM.userSelectText-1o1dQ7 .headerTag-2pZJzA.size14-3iUx6q.weightNormal-WI4TcG.nameTag-m8r81H.kawaii-tagged .kawaii-tag.kawaii-tag-invert.header-kawaii-tag {
+    padding: 2px 2px !important;
+    
 }
