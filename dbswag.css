@@ -1,5 +1,9 @@
 //META{"name":"dbswag Theme","description":"Sick af theme","author":"dbswag","version":"1.8"}*//{}
 
+/* 
+old colour 
+rgb(255, 173, 224) 
+*/
 
 /* font */
 @import url(https://fonts.googleapis.com/css?family=Karla|Questrial);
@@ -113,6 +117,8 @@ textarea,
     border: 3px solid rgba(255, 255, 255, 0) !important;
     background-color: #1D6586 !important;
 }
+
+
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     border: 3px solid rgba(255, 255, 255, 0) !important;
@@ -1072,4 +1078,73 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 .bd-blue .appMount-3VJmYg.bda-dark .theme-dark.popouts-3dRSmE .noArrow-3BYQ0Z.noShadow-321ZPm.popout-3sVMXz.popoutLeft-30WmrD.popout-left .userPopout-3XzG_A .headerPlaying-j0WQBV.header-2BwW8b.size16-14cGz5 .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0 .headerText-2sdzFM.userSelectText-1o1dQ7 .headerTag-2pZJzA.size14-3iUx6q.weightNormal-WI4TcG.nameTag-m8r81H.kawaii-tagged .kawaii-tag.kawaii-tag-invert.header-kawaii-tag {
     padding: 2px 2px !important;
     
+}
+
+/* Games Tab */
+
+.theme-dark .activityFeed-28jde9 {
+    background: transparent !important;
+}
+
+.theme-dark .body-SKIE6r {
+    background: transparent !important;
+}
+
+.theme-dark .card-7JP0BX {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.theme-dark .player-1kJMbj {
+    border-bottom-color: transparent !important;
+}
+
+.theme-dark .emptyState-N8MHmB,
+.theme-dark .discriminator-1Kma2g,
+.theme-dark .username-XRo90I,
+.theme-dark .playTime-1laRtO,
+.theme-dark .discriminator-pIKHPn,
+.theme-dark .tag-10JqWu,
+.theme-dark .publisher-2ZxPEd,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.theme-dark .playersHeader-3xUYAQ {
+    color: white !important;
+}
+
+.theme-dark .emptyState-N8MHmB {
+    border-color: transparent !important;
+}
+
+.theme-dark .headerText-2niCs_ {
+    border-top-color: transparent !important;
+}
+
+.theme-dark .sectionLine-JjseS9 {
+    background: transparent !important;
+}
+
+.headerButtonColor-G7_f-V {
+    background: #1D6586 !important;
+}
+
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+    background: #1D6586 !important;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background: transparent !important;
+}
+
+.theme-dark .gamePreview-9weYR2, .theme-dark .body-1SVoBw {
+    background-color: rgba(77, 49, 61, 0.9) !important;
+}
+
+.activityFeed-28jde9 ::-webkit-scrollbar {width: 10px !important;}
+.activityFeed-28jde9 ::-webkit-scrollbar-thumb {border:none !important;background-color: hsl(194, 97%, 27%) !important}
+.activityFeed-28jde9 ::-webkit-scrollbar-track-piece {background-color: rgba(0, 0, 0, 0.4) !important}
+
+.colorblindMode .theme-dark .offline-3qoTek {
+    background-image: none !important;
 }
