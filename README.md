@@ -1,1 +1,1 @@
-// First release of the Discord Theme
+// Return of dbswag's Discord theme/v2
